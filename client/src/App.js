@@ -1,10 +1,10 @@
-import "./App.css";
 import { BingoBoard } from "./components/BingoBoard";
+import { Header } from "./components/Header";
 
 function App() {
     return (
-        <div className="App">
-            <header className="App-header">Ludwig's Unban Form's Bingo</header>
+        <div>
+            <Header></Header>
             <BingoBoard></BingoBoard>
         </div>
     );
